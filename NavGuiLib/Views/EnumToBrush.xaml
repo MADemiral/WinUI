@@ -1,0 +1,26 @@
+<Page
+    x:Class="NavGuiLib.Views.EnumToBrushPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="using:NavGuiLib.ViewModels">
+
+
+    <Page.DataContext>
+        <vm:EnumToBrushViewModel/>
+    </Page.DataContext>
+
+    <ScrollViewer>
+        <StackPanel Spacing="16" Padding="24">
+
+            <TextBlock
+                Text="Enum To Brush Converter"
+                FontSize="28"
+                FontWeight="SemiBold"/>
+
+            <TextBlock
+                Text="Enum değerlerini otomatik olarak renge çeviren yardımcı yapı."
+                Foreground="{ThemeResource TextFillColorSecondary}"/>
+
+        </StackPanel>
+    </ScrollViewer>
+</Page>

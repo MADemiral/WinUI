@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NavGuiLib (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "NavGuiLib (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
