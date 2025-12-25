@@ -29,7 +29,6 @@
             <NavigationViewItem Tag="EnumToBrush">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE790;"/>
-                    <!-- Color Icon -->
                 </NavigationViewItem.Icon>
                 <NavigationViewItem.Content>
                     <TextBlock Text="EnumToBrush"/>
